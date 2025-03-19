@@ -1,0 +1,61 @@
+﻿<Window x:Class="mocap_wpf.Pages.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:s="https://github.com/canton7/Stylet"
+        xmlns:local="clr-namespace:mocap_wpf.Pages"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance local:ShellViewModel}"
+        Title="Mocap Player" Height="450" Width="800">
+   
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <MediaElement x:Name="MediaPlayer" 
+                     Grid.Row="0"
+                     LoadedBehavior="Manual"
+                     Source="{Binding CurrentMedia.FilePath}"
+                     MediaOpened="MediaPlayer_MediaOpened"
+                     MediaEnded="MediaPlayer_MediaEnded"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Command="{s:Action OpenFile}" 
+                    Content="Open File" 
+                    Margin="5"
+                    Padding="10,5"/>
+            <Button Command="{s:Action PlayPause}"
+                    Content="{Binding PlayPauseBtnText}"
+                    Margin="5"
+                    Padding="10,5"/>
+            <Button Command="{s:Action Stop}" 
+                    Content="Stop" 
+                    Margin="5"
+                    Padding="10,5"/>
+
+        </StackPanel>
+
+        <Slider Grid.Row="2" 
+                x:Name="PositionSlider"
+                Minimum="0"
+                Maximum="{Binding Duration}"
+                Value="{Binding CurrentPosition, Mode=TwoWay}"
+                ValueChanged="SeekSlider_ValueChanged"
+                PreviewMouseUp="SeekSlider_PreviewMouseUp"
+                PreviewMouseDown="SeekSlider_PreviewMouseDown"
+                Margin="10"/>
+
+        <TextBlock Grid.Row="2" 
+                   HorizontalAlignment="Right" 
+                   VerticalAlignment="Bottom" 
+                   Margin="0,0,15,20"
+                   Text="{Binding CurrentPositionFormatted}"/>
+
+    </Grid>
+
+</Window>

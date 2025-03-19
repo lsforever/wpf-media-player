@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|c:\\users\\lsfor\\onedrive\\desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\pages\\shellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|solutionrelative:pages\\shellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|c:\\users\\lsfor\\onedrive\\desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|solutionrelative:pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|c:\\users\\lsfor\\onedrive\\desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\messages\\mediamessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|solutionrelative:messages\\mediamessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|c:\\users\\lsfor\\onedrive\\desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\pages\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{775576F3-F86C-4542-B22F-8EAD90303AD6}|mocap_wpf.csproj|solutionrelative:pages\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShellView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Pages\\ShellView.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ShellView.xaml.cs",
+              "ToolTip": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Pages\\ShellView.xaml.cs",
+              "RelativeToolTip": "Pages\\ShellView.xaml.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T11:16:32.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShellViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Pages\\ShellViewModel.cs",
+              "RelativeDocumentMoniker": "Pages\\ShellViewModel.cs",
+              "ToolTip": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Pages\\ShellViewModel.cs",
+              "RelativeToolTip": "Pages\\ShellViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:55:12.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MediaMessages.cs",
+              "DocumentMoniker": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Messages\\MediaMessages.cs",
+              "RelativeDocumentMoniker": "Messages\\MediaMessages.cs",
+              "ToolTip": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Messages\\MediaMessages.cs",
+              "RelativeToolTip": "Messages\\MediaMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:43:26.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShellView.xaml",
+              "DocumentMoniker": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Pages\\ShellView.xaml",
+              "RelativeDocumentMoniker": "Pages\\ShellView.xaml",
+              "ToolTip": "C:\\Users\\lsfor\\OneDrive\\Desktop\\mocapplayer\\stylet_mocap\\mocap_wpf\\Pages\\ShellView.xaml",
+              "RelativeToolTip": "Pages\\ShellView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T10:54:58.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
